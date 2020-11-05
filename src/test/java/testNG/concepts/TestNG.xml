@@ -1,0 +1,19 @@
+<?xml version ="1.0" encoding ="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG_Concepts">
+	<groups>
+		<run>
+			<include name="smoke">
+			</include>
+		</run>
+	</groups>
+	<test name="TestNG Groups Concept">
+		<classes>
+			<class name="testNG.concepts.TestNGGroups" />
+			<class name="testNG.concepts.TestNGAnnotations" />
+		</classes>
+	</test>
+	
+	
+
+</suite>
